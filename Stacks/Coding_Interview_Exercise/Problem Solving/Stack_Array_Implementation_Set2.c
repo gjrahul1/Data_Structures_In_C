@@ -38,7 +38,8 @@ void StackPrint(stack *stk)
 }
 void StackPush(stack *stk,int value)
 {
-    if(stk->top==stk->capacity)
+    int size=StackSize(stk);
+    if(stk->top==size)
     {
         printf("Stack is Full \n");
         return;
