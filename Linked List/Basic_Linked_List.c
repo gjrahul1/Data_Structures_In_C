@@ -12,7 +12,7 @@ int main()
     int ele,size,i;
     struct node *temp;
     printf("Enter the size of linked list \t");
-    //printf("Enter the size of linked list of integer data type \n");
+    //printf("\n Enter the size of linked list of integer data type \n");
     scanf("%d",&size);
     for(i=0; i<size; i++)
     {
